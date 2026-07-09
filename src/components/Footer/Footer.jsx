@@ -4,13 +4,6 @@ import React from 'react';
 export default function Footer({ setActivePage }) {
   return (
     <footer className="wave-footer">
-      <div className="waves">
-        <div className="wave" id="wave1"></div>
-        <div className="wave" id="wave2"></div>
-        <div className="wave" id="wave3"></div>
-        <div className="wave" id="wave4"></div>
-      </div>
-
       <div className="footer-container">
         <div className="footer-row">
           <div className="footer-col">
