@@ -1,0 +1,259 @@
+.footer {
+    background-color: #0a0a0a;
+    color: white;
+    /* position: relative;
+    z-index: 1; */
+}
+
+.footerin {
+    width: 1280px;
+    justify-self: center;
+}
+
+.footertop {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+.avia {
+    font-size: 80px;
+    width: 851px;
+    font-weight: 500;
+}
+
+.reach {
+    font-size: 16px;
+    width: 256px;
+}
+
+.hello {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hello:hover {
+    text-decoration: underline;
+}
+
+.bigone {
+    font-size: 160px;
+}
+
+.footermedium {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.flinks {
+    display: flex;
+    gap: 20px;
+}
+
+.flinks p {
+    color: #858585;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.flinks p:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.end p {
+    color: #858585;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footerin {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .avia {
+        font-size: 32px;
+        line-height: 1.1;
+        text-align: left;
+    }
+
+    .reach {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hello {
+        font-size: 18px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+
+    .footermedium {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .bigone {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .flinks {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .flinks p {
+        font-size: 13px;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footerin {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .avia {
+        font-size: 32px;
+        line-height: 1.1;
+        text-align: left;
+    }
+
+    .reach {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hello {
+        font-size: 18px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+
+    .footermedium {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .bigone {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .flinks {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .flinks p {
+        font-size: 13px;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footerin {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .avia {
+        font-size: 32px;
+        line-height: 1.1;
+        text-align: left;
+    }
+
+    .reach {
+        font-size: 14px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hello {
+        font-size: 18px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+
+    .footermedium {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .bigone {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .flinks {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .flinks p {
+        font-size: 13px;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}

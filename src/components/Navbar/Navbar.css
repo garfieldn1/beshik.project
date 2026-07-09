@@ -1,0 +1,152 @@
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Navbar {
+    background-color: var(--color-primary);
+    margin-top: -100px;
+    justify-self: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.bigNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    justify-self: center;
+    height: 80px;
+    color: var(--color-bg);
+}
+
+.links {
+    width: 373px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nLinks {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nLinks:hover {
+    text-decoration: underline;
+}
+
+.nLinksb {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .Navbar {
+        margin-top: -50px;
+        height: 60px;
+    }
+
+    .bigNavbar {
+        width: 100%;
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .bigNavbar h2 {
+        font-size: 18px;
+    }
+
+    .bigNavbar h3 {
+        font-size: 14px;
+        padding: 8px 12px;
+        background: var(--color-secondary);
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Navbar {
+        margin-top: -50px;
+        height: 60px;
+    }
+
+    .bigNavbar {
+        width: 100%;
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .bigNavbar h2 {
+        font-size: 18px;
+    }
+
+    .bigNavbar h3 {
+        font-size: 14px;
+        padding: 8px 12px;
+        background: var(--color-secondary);
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Navbar {
+        margin-top: -50px;
+        height: 60px;
+    }
+
+    .bigNavbar {
+        width: 100%;
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .bigNavbar h2 {
+        font-size: 18px;
+    }
+
+    .bigNavbar h3 {
+        font-size: 14px;
+        padding: 8px 12px;
+        background: var(--color-secondary);
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .Navbar {
+        margin-top: -50px;
+        height: 60px;
+    }
+
+    .bigNavbar {
+        width: 100%;
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .bigNavbar h2 {
+        font-size: 18px;
+    }
+
+    .bigNavbar h3 {
+        font-size: 14px;
+        padding: 8px 12px;
+        background: #1a1a1a;
+        border-radius: 20px;
+    }
+}

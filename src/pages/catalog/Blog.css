@@ -1,0 +1,54 @@
+.projectsbig {
+    color: white;
+}
+
+.projectsbigin {
+    width: 1280px;
+    justify-self: center;
+}
+
+.projecttexts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 130px;
+}
+
+.projectimages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+}
+
+.my{
+    font-size: 112px;
+}
+
+.see{
+    font-size: 14px;
+    width: 512px;
+}
+
+.imacard{
+    width: 628px;
+    height: 471px;
+}
+
+.anyname{
+    margin-bottom: 50px;
+}
+
+.ptitlee{
+    font-size: 18px;
+    font-family: "inter display", Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pgrey{
+    color: #828282;
+    font-size: 16px;
+    width: 580px;
+    margin-bottom: 40px;
+}
