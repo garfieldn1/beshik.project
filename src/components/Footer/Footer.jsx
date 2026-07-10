@@ -23,9 +23,9 @@ export default function Footer({ setActivePage }) {
 
           <div className="footer-col">
             <h3>Aloqa</h3>
-            <p>📞 +998 90 123 45 67</p>
-            <p>📍 O'zbekiston, Toshkent shahri</p>
-            <p>✉️ info@beshikchi.uz</p>
+            <p>📞 +998 33 700 94 92</p>
+            <p>📍 O'zbekiston, Namangan shahri</p>
+            <p>✉️ https://t.me/bbeshikk</p>
           </div>
         </div>
 
