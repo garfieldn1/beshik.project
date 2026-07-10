@@ -1,4 +1,6 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
+
+const STORAGE_KEY = 'catalogItems';
 
 const defaultCatalogItems = [
   {
@@ -27,8 +29,29 @@ export function useCatalog() {
   return useContext(CatalogContext);
 }
 
+const loadCatalogItems = () => {
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (!stored) {
+      return defaultCatalogItems;
+    }
+    const parsed = JSON.parse(stored);
+    return Array.isArray(parsed) ? parsed : defaultCatalogItems;
+  } catch {
+    return defaultCatalogItems;
+  }
+};
+
 export function CatalogProvider({ children }) {
-  const [items, setItems] = useState(defaultCatalogItems);
+  const [items, setItems] = useState(loadCatalogItems);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    } catch {
+      // Ignore localStorage write errors
+    }
+  }, [items]);
 
   const addItem = ({ title, description, image }) => {
     const newItem = {

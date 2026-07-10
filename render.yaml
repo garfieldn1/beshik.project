@@ -1,0 +1,4 @@
+routes:
+  - path: /*
+    method: GET
+    dest: /index.html
